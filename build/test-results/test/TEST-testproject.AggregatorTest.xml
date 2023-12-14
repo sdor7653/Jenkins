@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testproject.AggregatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:00:01" hostname="DESKTOP-HVTHOHV" time="0.063">
+<testsuite name="testproject.AggregatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:39:24" hostname="DESKTOP-HVTHOHV" time="0.078">
   <properties/>
-  <testcase name="testInitialState()" classname="testproject.AggregatorTest" time="0.058"/>
-  <testcase name="testMultipleAdditions()" classname="testproject.AggregatorTest" time="0.001"/>
+  <testcase name="testInitialState()" classname="testproject.AggregatorTest" time="0.071"/>
+  <testcase name="testMultipleAdditions()" classname="testproject.AggregatorTest" time="0.002"/>
   <testcase name="testSingleAddition()" classname="testproject.AggregatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
