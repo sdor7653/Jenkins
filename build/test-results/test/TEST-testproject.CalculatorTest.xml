@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testproject.CalculatorTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-12-15T14:47:28" hostname="DESKTOP-HVTHOHV" time="0.046">
+<testsuite name="testproject.CalculatorTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-12-15T14:58:56" hostname="DESKTOP-HVTHOHV" time="0.313">
   <properties/>
-  <testcase name="testSum()" classname="testproject.CalculatorTest" time="0.043">
+  <testcase name="testSum()" classname="testproject.CalculatorTest" time="0.307">
     <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: 4&#13;&#10; but was: 0" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
 expected: 4
  but was: 0
@@ -90,7 +90,7 @@ expected: 4
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testSubtract()" classname="testproject.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtract()" classname="testproject.CalculatorTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
