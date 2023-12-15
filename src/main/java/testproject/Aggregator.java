@@ -20,10 +20,4 @@ class Aggregator {
         return sum;
     }
 
-    /**
-     * Reset the aggregated value
-     */
-    void reset() {
-        sum = 0;
-    }
 }
