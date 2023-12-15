@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
 
 repositories {
     mavenCentral()
+}
+
+jacoco {
+    toolVersion = "0.8.9"
 }
 
 dependencies {
@@ -14,6 +19,7 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
 }
 
 tasks.withType(JavaCompile) {
@@ -22,5 +28,15 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     systemProperty "file.encoding", "UTF-8"
+}
+
+tasks.jacocoTestReport {
+    dependsOn test
+
+    reports {
+        xml.required = false
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir("jacocoHtml")
+    }
 }
 
